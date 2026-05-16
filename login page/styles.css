@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+background: white;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0,1);
+width: 350px;
+text-align: center;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;   
+}
+button img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+h1{
+    margin-bottom: 20px; color:#333;
+
+}
+.Google{
+  flex: 1;  
+  padding: 10px ;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  
+}
+.Apple{
+    flex: 1;  
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+  }
+.or{
+    margin: 20px 0; 
+    color: #888;
+font-size: 14px;
+    position: relative;
+    flex: 1;
+    height: 1px;
+    background-color: #e0e0e0;
+padding: 0 15px;
+
+
+}
+form{
+    text-align: left;
+    
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.label-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.forgot{
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+}
+.Login-btn{
+width: 100%;
+padding: 12px;
+background: #333;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+.signup{
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+.signup a{
+    color: blue;
+    text-decoration: none;
+}
